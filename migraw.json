@@ -1,0 +1,15 @@
+{
+	"name": "gitlab-api",
+	"network": {
+		"ip": "127.0.0.1",
+		"host": "local.gitlab-api.net"
+	},
+	"document_root": "web",
+	"config": {
+		"php": "7.2",
+		"apache": true
+	},
+	"exec": [
+		"composer install --no-interaction"
+	]
+}

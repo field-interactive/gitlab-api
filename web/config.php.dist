@@ -1,0 +1,10 @@
+<?php
+
+$config = [
+
+    /** https://docs.gitlab.com/ee/user/profile/personal_access_tokens.html */
+    'access_token' => 'YOUR_ACCESS_TOKEN',
+
+    /** https://docs.gitlab.com/ee/api/README.html#namespaced-path-encoding */
+    'project' => urlencode('myboom/YOUR_PROJECT_NAMESPACE'),
+];
