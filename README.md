@@ -1,7 +1,7 @@
 # Gitlab-Api
-This projects provides access to the gitlab-api
+This projects provides access to the gitlab-api with some useful features
 
-# Features (so far)
+## Features (so far)
 - Update all issues of a project with the confidential flag
 
 ## Install
