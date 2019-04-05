@@ -6,5 +6,5 @@ $config = [
     'access_token' => 'YOUR_ACCESS_TOKEN',
 
     /** https://docs.gitlab.com/ee/api/README.html#namespaced-path-encoding */
-    'project' => urlencode('myboom/YOUR_PROJECT_NAMESPACE'),
+    'project' => urlencode('YOUR_GROUP/YOUR_PROJECT_NAMESPACE'),
 ];
